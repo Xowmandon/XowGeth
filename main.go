@@ -4,7 +4,7 @@ import (
 
 	"fmt"
     //"log"
-	"github.com/Xowmandon/XowGeth/ETHUtils"
+	ETHUtil "github.com/Xowmandon/XowGeth/ETHUtils"
 
     //"github.com/ethereum/go-ethereum/ethclient"
 
@@ -16,7 +16,7 @@ func main() {
 
 	//connects to eth Client, returns client/connection.
 	//function stored in client.go
-	client := ConnectToEthClient()
+	client := ETHUtil.ConnectToEthClient()
 
 	fmt.Printf("v is of type %T\n", client)
 
