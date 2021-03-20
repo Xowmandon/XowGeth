@@ -4,8 +4,7 @@ import (
 
 	"fmt"
     //"log"
-	"./ETHUtils/client"
-
+	"github.com/Xowmandon/XowGeth/ETHUtils"
 
     //"github.com/ethereum/go-ethereum/ethclient"
 

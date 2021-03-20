@@ -1,4 +1,4 @@
-module main
+module github.com/Xowmandon/XowGeth
 
 go 1.13
 
