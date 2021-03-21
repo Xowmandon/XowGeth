@@ -12,7 +12,7 @@ import (
 
 )
 
-func getAccountBalance(addr common.Address, client *ethclient.Client ) *big.Float {
+func GetAccountBalance(addr common.Address, client *ethclient.Client ) *big.Float {
 
 	balanceInWei, err := client.BalanceAt(context.Background(), addr, nil)
 

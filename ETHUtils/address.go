@@ -3,7 +3,7 @@ package ETHUtils
 import "fmt"
 import "github.com/ethereum/go-ethereum/common"
 
-func getAddress(addr string) common.Address{
+func GetAddress(addr string) common.Address{
 
 	address := common.HexToAddress(addr)
 
